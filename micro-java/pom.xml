@@ -75,7 +75,13 @@
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <plugins>
+  <plugins>
+	  <plugin>
+		  <groupId>org.eclipse.jkube</groupId>
+		  <artifactId>openshift-maven-plugin</artifactId>
+		  <version>1.2.0</version>
+
+          </plugin>
       <plugin>
         <groupId>io.quarkus</groupId>
         <artifactId>quarkus-maven-plugin</artifactId>
